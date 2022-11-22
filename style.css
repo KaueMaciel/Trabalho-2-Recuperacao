@@ -1,0 +1,59 @@
+body {
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(40, 237, 255));
+}
+
+.corpo { 
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+    background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(40, 237, 255));
+    border-right: 3px solid black;
+    border-radius: 30px;
+    border-bottom: 3px solid black;
+}
+
+.titulo {
+    height: 80px;
+}
+
+.box {
+    padding: 30px;
+    width: 90%;
+    border-radius: 30px;
+}
+
+label {
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.botton {
+    margin-top: 10px;
+}
+
+#save{
+    background-color: rgb(255, 255, 255) ;
+    width: 175px; 
+    border-radius: 50px;
+}
+
+#caixaDoNumero {
+    size: 40px;
+    font-size: 15px;
+}
+
+.output {
+    background-color: #FFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+fieldset {
+    margin-top: 20px;
+    height: 40px;
+}
+
+.resultado{
+    margin: 0;
+    margin-top: 20px;
+}
